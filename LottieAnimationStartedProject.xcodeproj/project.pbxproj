@@ -18,6 +18,10 @@
 		C023DD0A20811940009D8C4C /* Example1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C023DD0920811940009D8C4C /* Example1ViewController.swift */; };
 		C023DD0C2081194C009D8C4C /* Example2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C023DD0B2081194C009D8C4C /* Example2ViewController.swift */; };
 		C023DD0E20811956009D8C4C /* Example3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C023DD0D20811956009D8C4C /* Example3ViewController.swift */; };
+		C023DD1320814FFC009D8C4C /* buttonOn.json in Resources */ = {isa = PBXBuildFile; fileRef = C023DD1220814FFC009D8C4C /* buttonOn.json */; };
+		C023DD1520815005009D8C4C /* bounching_ball.json in Resources */ = {isa = PBXBuildFile; fileRef = C023DD1420815005009D8C4C /* bounching_ball.json */; };
+		C023DD172081500C009D8C4C /* buttonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = C023DD162081500C009D8C4C /* buttonOff.json */; };
+		C023DD1920815014009D8C4C /* tutorial.json in Resources */ = {isa = PBXBuildFile; fileRef = C023DD1820815014009D8C4C /* tutorial.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		C023DD0920811940009D8C4C /* Example1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1ViewController.swift; sourceTree = "<group>"; };
 		C023DD0B2081194C009D8C4C /* Example2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2ViewController.swift; sourceTree = "<group>"; };
 		C023DD0D20811956009D8C4C /* Example3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3ViewController.swift; sourceTree = "<group>"; };
+		C023DD1220814FFC009D8C4C /* buttonOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buttonOn.json; sourceTree = "<group>"; };
+		C023DD1420815005009D8C4C /* bounching_ball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bounching_ball.json; sourceTree = "<group>"; };
+		C023DD162081500C009D8C4C /* buttonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buttonOff.json; sourceTree = "<group>"; };
+		C023DD1820815014009D8C4C /* tutorial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		C023DD0F20811AEC009D8C4C /* Example1 */ = {
 			isa = PBXGroup;
 			children = (
+				C023DD1420815005009D8C4C /* bounching_ball.json */,
 				C023DD0920811940009D8C4C /* Example1ViewController.swift */,
 			);
 			path = Example1;
@@ -109,6 +118,8 @@
 		C023DD1020811AF9009D8C4C /* Example2 */ = {
 			isa = PBXGroup;
 			children = (
+				C023DD162081500C009D8C4C /* buttonOff.json */,
+				C023DD1220814FFC009D8C4C /* buttonOn.json */,
 				C023DD0B2081194C009D8C4C /* Example2ViewController.swift */,
 			);
 			path = Example2;
@@ -117,6 +128,7 @@
 		C023DD1120811B00009D8C4C /* Example3 */ = {
 			isa = PBXGroup;
 			children = (
+				C023DD1820815014009D8C4C /* tutorial.json */,
 				C023DD0D20811956009D8C4C /* Example3ViewController.swift */,
 			);
 			path = Example3;
@@ -180,7 +192,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C023DD172081500C009D8C4C /* buttonOff.json in Resources */,
 				C023DCF6208116A6009D8C4C /* LaunchScreen.storyboard in Resources */,
+				C023DD1320814FFC009D8C4C /* buttonOn.json in Resources */,
+				C023DD1920815014009D8C4C /* tutorial.json in Resources */,
+				C023DD1520815005009D8C4C /* bounching_ball.json in Resources */,
 				C023DCF3208116A6009D8C4C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
